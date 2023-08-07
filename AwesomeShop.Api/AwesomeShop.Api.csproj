@@ -13,14 +13,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
+        <Content Include="..\.dockerignore">
+            <Link>.dockerignore</Link>
+        </Content>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\AwesomeShop.Application\AwesomeShop.Application.csproj" />
-      <ProjectReference Include="..\AwesomeShop.Infrastructure\AwesomeShop.Infrastructure.csproj" />
+        <ProjectReference Include="..\AwesomeShop.Application\AwesomeShop.Application.csproj"/>
+        <ProjectReference Include="..\AwesomeShop.Infrastructure\AwesomeShop.Infrastructure.csproj"/>
     </ItemGroup>
 
 </Project>

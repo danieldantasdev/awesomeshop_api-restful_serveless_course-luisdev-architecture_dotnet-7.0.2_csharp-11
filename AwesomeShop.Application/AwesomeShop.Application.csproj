@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\AwesomeShop.Core\AwesomeShop.Core.csproj" />
+        <ProjectReference Include="..\AwesomeShop.Core\AwesomeShop.Core.csproj"/>
     </ItemGroup>
 
 </Project>
