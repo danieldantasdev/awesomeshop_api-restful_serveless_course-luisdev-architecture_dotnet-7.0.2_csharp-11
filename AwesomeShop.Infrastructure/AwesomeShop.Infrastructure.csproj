@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\AwesomeShop.Core\AwesomeShop.Core.csproj"/>
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.37"/>
+        <PackageReference Include="Microsoft.Azure.WebJobs.Extensions" Version="5.0.0"/>
+        <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.CosmosDB" Version="3.0.10"/>
+        <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Http" Version="3.2.0"/>
+        <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.ServiceBus" Version="5.2.0"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+    </ItemGroup>
+
+</Project>
